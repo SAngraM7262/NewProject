@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body{
+  text-align : center;
+  background-color : #1a1a1a;
+}
+#container{
+    width:700px;
+    height:400px;
+    left:-webkit-calc( 50% - 350px );
+    top:20%;
+	position:absolute;
+	border-radius:5px;
+	box-shadow : 10px 10px 40px rgba(56, 56, 56, 0.6);
+	box-sizing : border-box;
+    display: flex;
+    background-color : #000000;
+    padding: 0px;
+    overflow: visible;
+}
+#title{
+  font-size : 3vh;
+  color : #ff0066;
+  margin-top : 2%;
+  font-family: 'Lovers Quarrel', cursive;
+}
+
+#test{
+    color: white;
+    position: absolute;
+    top: 161px;
+    left: 185px;
+}
+/*#text{
+  animation : fadeInBack 5s linear 3s;
+  color : #ff0066;
+  font-family: 'Itim', cursive;
+  position: relative;
+    left: 50px;
+    top: 50px;
+  visibility : hidden;
+}*/
+
+@-webkit-keyframes fadeInBack {
+0% {
+opacity: 1;
+-webkit-transform: scale(1);
+transform: scale(1);
+visibility: visible;
+}
+25% {
+opacity: 0.8;
+-webkit-transform: scale(2.5);
+transform: scale(2.5);
+visibility: visible;
+}
+50% {
+opacity: 0.6;
+-webkit-transform: scale(3.5);
+transform: scale(3.5);
+visibility: visible;
+}
+75% {
+opacity: 0.4;
+-webkit-transform: scale(4.5);
+transform: scale(4.5);
+visibility: visible;
+}
+100% {
+opacity: 0;
+-webkit-transform: scale(5.5);
+transform: scale(5.5);
+visibility: visible;
+}
+}
